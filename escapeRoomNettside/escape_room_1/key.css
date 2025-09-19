@@ -1,0 +1,60 @@
+#key {
+  position: absolute;
+  top: 180%;
+  left: 80%;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  cursor: move;
+  padding-left: 10px;
+
+  scale: 2;
+}
+
+.key {
+  background-color: #ffd700;
+}
+
+.ring {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+
+  box-shadow: 0 0 0 6px #ffd700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ringsmall {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.stick {
+  height: 8px;
+  width: 40px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.tagg1 {
+    margin-bottom: -10px;
+    margin-left: -15px;
+    height: 10px;
+    width: 4px;
+    border-radius: 20px;
+}
+.tagg2 {
+    margin-bottom: -10px;
+    margin-left: 5px;
+    height: 8px;
+    width: 4px;
+    border-radius: 20px;
+}
